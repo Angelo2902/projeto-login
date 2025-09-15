@@ -23,7 +23,7 @@
 }
 
 body, html {
-    background-color: var(--cor1);
+    background-color: var(--cor2);
     height: 100vh;
     width: 100vw;
 }
@@ -51,6 +51,8 @@ section.login {
     border-radius: 20px;
 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.527);
+    transition: width .4s, heigth .4s;
+    transition-timing-function: ease;
 
     
 }
